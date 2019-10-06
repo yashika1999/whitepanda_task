@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Whitepanda Task</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style >
+		{
+ 			 box-sizing: border-box;
+		}
+
+		.content 
+		{
+  			max-width: 3500px;
+  			margin: auto;
+  			padding: 10px;
+			border: 5px solid white;
+		}
+
+		.column
+ 		{
+		 	 float: left;
+ 		  	width: 28%;
+  		  	margin: 30px;
+  		  	padding: 5px;
+ 		  	height: 300px; 
+		}
+
+		.row:after 
+		{
+  		   	content: "";
+		   	display: table;
+		   	clear: both;
+  
+		}
+
+		.transparent_btn 
+		{
+			display: inline-block;
+			padding: 10px 14px;
+			color: #00E6CC;
+			border: 1px solid #00E6CC;
+			font-size: 14px;
+			line-height: 120%;
+			background-color: #00E6CC
+			border-radius: 4px;
+		}
+
+		.transparent_btn.blue 
+		{
+			color: #00E6CC;
+			border-color: #00E6CC;
+		}
+	</style>
+</head>
+
+<body style="background-color:rgb(250, 250, 250);">
+
+	<div class="content">
+		<div style="background-color:rgb(255, 255, 255);padding:5px;">
+			<p>
+				<font face="candara" size="5" > white<b>panda </b>  </font>
+			</p> 
+		</div>
+		<br> <br> 
+		<p>
+			 <font face="Arial" size="6"> Content Store </font>
+		</p>
+		<br> <br> 
+
+		<div style="background-color:rgb(244, 244, 244);color:white;padding:20px;">
+			<p>
+				<font face="Arial" size="5" color = #00E6CC>
+				Got bulk orders or almost similar orders ? Fill the order brief in an excel sheet
+				</font>
+			</p>
+			<p>
+				<font face="" size="4" color = "black">
+					If you're wondering about an easy way to place orders in large numbers, we provide a way 
+					customized just for that.<br>Download our excel sheet, and fill the order brief in the prescribed 
+					format and submit. In case you need any help,<u> we <br>are just a click away to 
+					assist you in placeing your order.</u>
+			</p>
+
+			<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order via Excel Sheet</font></span>
+
+		      </div>
+
+		<div class="row" >
+ 			 <div class="column" style="background-color:rgb(255, 255, 255);">
+  				<h2> 
+          					<img align="left" src="peacock.png" alt="Icon">   &nbsp  Blog / Article 
+				</h2> 
+         				<p > 
+					<font size="5">  &nbsp &nbsp  from    &#8377    1000 </font>
+				</p>  
+   				<p> 
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging <br> 
+					from prospective customers to users 
+				</p>
+    				<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			  </div>
+
+			  <div class="column" style="background-color:rgb(255, 255, 255);">
+   				<h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Newsletter/ E-mailer </h2>
+   				<p > <font size="5"> &nbsp &nbsp &nbsp &nbsp from    &#8377    1000 </font></p>  
+    				<p>
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience 
+					ranging <br> from prospective customers to users
+				</p>
+    				<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			    </div>
+  
+			   <div class="column" style="background-color:rgb(255, 255, 255);">
+    				<h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp   Whitepaper  </h2>
+   				 <p >  <font size="5"> &nbsp &nbsp from    &#8377    2000 </font> </p>  
+    				 <p>
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+					<br> from prospective customers to users
+				</p>
+    				<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			   </div>
+
+			   <div class="row">
+  				<div class="column" style="background-color:rgb(255, 255, 255);">
+   				 	<h2>  <img align="left" src="peacock.png" alt="Icon">   &nbsp  e-book </h2>
+   					 <p > <font size="5"> &nbsp &nbsp from   &#8377    1000 </font></p>  
+    					<p>
+						<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience 
+						ranging <br> from prospective customers to users
+					</p>
+    					<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			      	</div>
+  
+			      <div class="column" style="background-color:rgb(255, 255, 255);">
+    			  	<h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Report/ Guide </h2>
+    				<p > <font size="5"> &nbsp &nbsp from     &#8377     1000 </font></p>  
+    				<p>
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+					<br> from prospective customers to users
+				</p>
+    				<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			        </div>
+  
+			        <div class="column" style="background-color:rgb(255, 255, 255);">
+  				 <h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Product Description </h2>
+   				 <p > <font size="5">  &nbsp &nbsp from     &#8377     500 </font></p>  
+    				 <p>
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+					<br> from prospective customers to users
+				  </p>
+    				   <span href="#" class="transparent_btn "> <font face="Arial" size="4">Order</font> </span>
+  			          </div>
+
+			          <div class="row">
+  				 <div class="column" style="background-color:rgb(255, 255, 255);">
+    				 	<h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Website Content </h2>
+    					<p > <font size="5"> &nbsp &nbsp from     &#8377    1000 </font></p>  
+   					<p>
+						<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+						<br> from prospective customers to users
+					 </p>
+   					 <span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			            </div>
+  
+			<div class="column" style="background-color:rgb(255, 255, 255);">
+   				 <h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Video Script </h2>
+   				 <p > <font size="5"> &nbsp &nbsp from    &#8377     1000 </font></p>  
+    				<p >
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+					<br> from prospective customers to users
+				</p>
+    				<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			</div>
+  
+			<div class="column" style="background-color:rgb(255, 255, 255);">
+    				<h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Company Profile/ Brochure  </h2>
+    				<p > <font size="5"> &nbsp &nbsp from      &#8377     2000 </font></p>  
+   				<p>
+					<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+					<br> from prospective customers to users
+				</p>
+  				<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+			</div>
+
+			<div class="row">
+ 				 <div class="column" style="background-color:rgb(255, 255, 255);">
+    					<h2> <img align="left" src="peacock.png" alt="Icon">   &nbsp  Press Release</h2>
+    					<p > <font size="5"> &nbsp &nbsp   from       &#8377     2000 </font></p>  
+    					<p>
+						<br>Typically 450- 400 words, an e-book is <br> perfect for your target audience ranging 
+						<br> from prospective customers to users
+					</p>
+   					<span href="#" class="transparent_btn "> <font face="Arial" size="4">Order </font></span>
+				 </div>
+			</div>
+
+			<img align = "center" src="title.png" alt="1"> 
+
+			<p>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp
+				Copyright @ 2019 White Panda Media Pvt. Ltd. <br>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp 
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp 
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp&nbsp &nbsp 
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+				All rights reserved <br><br>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp 
+				<u>Privacy Policy </u> &nbsp &nbsp| 
+				&nbsp &nbsp<u> Terms of service</u> &nbsp &nbsp| 
+				&nbsp &nbsp<u>Service Agreement</u> &nbsp &nbsp| 
+				&nbsp &nbsp<u>Contact us</u>
+			</p> 
+
+		</div>
+
+</body>
+</html>
